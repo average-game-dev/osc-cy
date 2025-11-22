@@ -1,0 +1,205 @@
+/* -------------------------------------------------- */
+/* General Application Look                           */
+/* -------------------------------------------------- */
+QWidget {
+    background: #1f1f1f;
+    color: #e6e6e6;
+    font-family: Segoe UI, sans-serif;
+    font-size: 14px;
+}
+
+
+/* -------------------------------------------------- */
+/* Editor / Text Fields                               */
+/* -------------------------------------------------- */
+#MainEditor, 
+#RemoveTextInput {
+    background: #262626;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 6px;
+    color: #e6e6e6;
+}
+#MainEditor:focus, 
+#RemoveTextInput:focus {
+    border: 0px solid #555;
+}
+
+
+/* -------------------------------------------------- */
+/* Table Styling                                      */
+/* -------------------------------------------------- */
+#TableWidget {
+    gridline-color: #333;
+    background: #1c1c1c;
+    selection-background-color: #3c3c3c;
+    selection-color: white;
+}
+
+QHeaderView::section {
+    background: #2a2a2a;
+    color: #cccccc;
+    padding: 4px;
+    border: none;
+    border-right: 1px solid #333;
+}
+
+QTableWidget::item {
+    padding: 4px;
+}
+
+QTableCornerButton::section {
+    background: #2a2a2a;
+    border: none;
+}
+
+
+/* -------------------------------------------------- */
+/* Buttons inside Table (Column 0)                    */
+/* -------------------------------------------------- */
+#TablePushButtons {
+    background: #303030;
+    border: 1px solid #383838;
+    border-radius: 6px;
+    text-align: left;
+    padding: 2px;
+    color: #e6e6e6;
+}
+#TablePushButtons:hover {
+    background: #3a3a3a;
+}
+#TablePushButtons:pressed {
+    background: #2a2a2a;
+}
+
+
+/* -------------------------------------------------- */
+/* Toolbar Buttons (Save / Add / Remove)              */
+/* -------------------------------------------------- */
+#SaveButton,
+#AddRowButton,
+#RemoveRowButton {
+    background: #2c2c2c;
+    border-radius: 8px;
+    border: 1px solid #333;
+    padding: 4px;
+}
+
+#SaveButton:hover,
+#AddRowButton:hover,
+#RemoveRowButton:hover {
+    background: #3a3a3a;
+}
+
+#SaveButton:pressed,
+#AddRowButton:pressed,
+#RemoveRowButton:pressed {
+    background: #1e1e1e;
+}
+
+
+/* -------------------------------------------------- */
+/* Toolbar wrapper                                    */
+/* -------------------------------------------------- */
+#ToolbarWidget {
+    background: #1a1a1a;
+    border-left: 1px solid #333;
+}
+
+
+/* -------------------------------------------------- */
+/* Delete Row Dialog                                  */
+/* -------------------------------------------------- */
+#RemoveAcceptButton {
+    background: #357a38;
+    border: 1px solid #2e6932;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+#RemoveAcceptButton:hover {
+    background: #3e8a41;
+}
+#RemoveAcceptButton:pressed {
+    background: #2a5f2d;
+}
+
+#RemoveRejectButton {
+    background: #7a3535;
+    border: 1px solid #693131;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+#RemoveRejectButton:hover {
+    background: #8a3e3e;
+}
+#RemoveRejectButton:pressed {
+    background: #5f2a2a;
+}
+
+/* ---------------- Vertical Scrollbar ---------------- */
+QScrollBar:vertical {
+    background: #1f1f1f;       /* scrollbar background */
+    width: 12px;               /* width of the scrollbar */
+    margin: 0px 0px 0px 0px;   /* optional spacing */
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #444;           /* the draggable handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #555;           /* hover effect */
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #666;           /* pressed effect */
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: none;           /* remove arrow buttons */
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;           /* optional, empty space behavior */
+}
+
+/* ---------------- Horizontal Scrollbar ---------------- */
+QScrollBar:horizontal {
+    background: #1f1f1f;
+    height: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #444;
+    min-width: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #555;
+}
+
+QScrollBar::handle:horizontal:pressed {
+    background: #666;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    background: none;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: none;
+}

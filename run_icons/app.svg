@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="app.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="463.86205"
+     inkscape:cy="508.40977"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="150.1284"
+       y="106.05401"
+       width="694.51526"
+       height="792.67422"
+       id="rect3" />
+    <linearGradient
+       id="linearGradient1"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#363636;stop-opacity:0.85;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#363636;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#65b9bd;fill-opacity:1;stroke:#363636;stroke-width:14.45;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.85"
+       id="rect1"
+       width="197.21661"
+       height="223.675"
+       x="33.683334"
+       y="20.454166" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26275862,0,0,0.46961778,29.463727,-31.021563)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:400px;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console Semi-Condensed';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#0b190d;fill-opacity:1;stroke:none;stroke-width:54.6142;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.85"><tspan
+         x="150.12891"
+         y="473.05073"
+         id="tspan1">\/</tspan></text>
+  </g>
+</svg>

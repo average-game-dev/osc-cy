@@ -1,0 +1,43 @@
+/* -------------------------------------------------- */
+/* Custom Title Bar Styling                           */
+/* -------------------------------------------------- */
+CustomTitleBar {
+    background-color: #2a2a2a;
+}
+
+/* Title label inside the title bar */
+CustomTitleBar QLabel {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Generic buttons */
+CustomTitleBar QPushButton {
+    background-color: #444444;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Hover state */
+CustomTitleBar QPushButton:hover {
+    background-color: #555555;
+}
+
+/* Pressed state */
+CustomTitleBar QPushButton:pressed {
+    background-color: #666666;
+}
+
+/* Close button specific */
+CustomTitleBar QPushButton#btn_close {
+    background-color: #900000;
+}
+
+CustomTitleBar QPushButton#btn_close:hover {
+    background-color: #ff0000;
+}
+
+CustomTitleBar QPushButton#btn_close:pressed {
+    background-color: #800000;
+}
